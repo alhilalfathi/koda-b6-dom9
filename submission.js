@@ -16,15 +16,6 @@ const tbody = document.getElementById("tbody")
         const td6 = document.createElement("td")
         td6.textContent = `${item.rokok}`
 
-
-        // tr.innerHTML = `
-        //     <td>${index + 1}</td>
-        //     <td>${item.name}</td>
-        //     <td>${item.age}</td>
-        //     <td>${item.gender}</td>
-        //     <td>${item.smoker}</td>
-        //     <td>${item.rokok.length ? item.rokok.join(", ") : "-"}</td>
-        // `
         tr.append(td1,td2,td3,td4,td5,td6)
         tbody.appendChild(tr)
     })
