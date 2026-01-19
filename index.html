@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Survey Rokok</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <form id="form">
+        <header>
+            <h1>Survey Perokok</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quidem numquam voluptas minus quasi debitis?</p>
+        </header>
+        <section>
+            <div class="input-wrap">
+                <div class="input-label">
+                    <label for="name">Siapa nama anda?</label>
+                </div>
+                <input type="text" placeholder="Enter Your Full Name" id="name" class="text">
+            </div>
+            <div class="input-wrap">
+                <div class="input-label">
+                    <label for="age">Berapa umur anda?</label>
+                </div>
+                <input type="number" placeholder="Enter Your Age" id="age" class="text">
+            </div>
+            <div class="input-wrap">
+                <div class="input-label">
+                    <label>Apa jenis kelamin anda?</label>
+                </div>
+                <input type="radio" id="laki" name="gender" value="laki" class="radio">
+                <label for="laki">Laki-Laki</label>
+                <input type="radio" id="perempuan" name="gender" value="perempuan" class="radio">
+                <label for="perempuan">Perempuan</label>
+            </div>
+            <div class="input-wrap">
+                <div class="input-label">
+                    <label>Apakah anda perokok?</label>
+                </div>
+                <input type="radio" id="ya-perokok" name="apakah-perokok" value="ya" class="radio">
+                <label for="ya-perokok">Ya</label>
+                <input type="radio" id="tidak-perokok" name="apakah-perokok" value="tidak" class="radio">
+                <label for="tidak-perokok">Tidak</label>
+            </div>
+            <div class="input-wrap">
+                <div class="input-label">
+                    <label>Jika anda perokok, rokok apa yang pernah anda coba?</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="gudang-garam-filter" name="jenisRokok">
+                    <label for="gudang-garam-filter">Gudang Garam Filter</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="lucky-strike" name="jenisRokok">
+                    <label for="lucky-strike">Lucky Strike</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="marlboro" name="jenisRokok">
+                    <label for="marlboro">Marlboro</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="esse" name="jenisRokok">
+                    <label for="esse">Esse</label>
+                </div>
+            </div>
+        </section>
+        <div class="submit">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
